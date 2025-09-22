@@ -13,13 +13,8 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
- "production": {
-    "username": "epicadmin",
-    "password": "Qwerty.123456#AWS",
-    "database": "bookstore",
-    "host": "epicreads-database.cpmao2e6cx2i.ap-south-1.rds.amazonaws.com",
-    "port": 3306,
-    "dialect": "mysql",
-    "logging": false
+  "production": {
+    "use_env_variable":"JAWSDB_URL",
+    "dialect": "mysql"
   }
 }
